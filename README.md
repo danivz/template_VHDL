@@ -1,6 +1,6 @@
 # VHDL Template for DES-CEI Students
 
-This repository provides a simple VHDL template for students, offering a starting point for RTL simulation or FPGA (Field-Programmable Gate Array) implementation. Whether you are new to VHDL or looking for a quick setup, this template aims to streamline the process of creating and organizing VHDL projects with Git.
+This repository provides a simple VHDL template for students, offering a starting point for RTL simulation or Field-Programmable Gate Array (FPGA) implementation. Whether you are new to VHDL or looking for a quick setup, this template aims to streamline the process of creating and organizing VHDL projects with Git.
 
 ## Getting Started
 
@@ -32,7 +32,12 @@ Run the help command to display the available make rules:
 ### Build the Vivado project in Windows
 
 1. Create a folder named 'build' in the repository directory.
-2. Open Vivado and navigate to the 'build' folder.
+2. Open Vivado and navigate to the 'build' folder using the TCL Console on the botton left:
+
+    ```tcl
+    cd C:\<pathToRepository>/build/
+    ```
+
 3. In the Vivado Tcl Console, execute the following command to create the project:
 
     ```tcl
